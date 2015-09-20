@@ -4,19 +4,153 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/gbhn.min.css">
 <link rel="stylesheet" href="css/gbhn.css">
+<link rel="stylesheet" href="css/jquery.mobile.icons.min.css">
 <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 </head>
 <body>
 
-<div data-role="page">
-  <div data-role="main" class="ui-content">
-    <form method="post" action="demoform.asp">
-      <label for="fname">First name:</label>
-      <input type="text" name="fname" id="fname">
-    </form>
+<div data-role="page" id="pageone">
+  <div data-role="header">
+    <div data-role="navbar">
+    <ul>
+      <li><a href="#myPopup3" data-rel="popup" class="ui-btn" data-transition="fade">Cricket</a></li>
+      <li><a href="#myPopup1" data-rel="popup" class="ui-btn" data-transition="flip">Rain</a></li>
+      <li><a href="#myPopup2" data-rel="popup" class="ui-btn" data-transition="flow">Error</a></li>
+    </ul>
   </div>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <div data-role="popup" id="myPopup1" class="ui-content">
+      <p>Customer :  (Pelanggan telpon ke call center complain karena tidak bisa menikmati tayangan/gangguan sinyal)</p><p>
+
+Agent       :   (Agent pertama harus lakukan probing detail mengenai kondisi yang terjadi, jika memang gangguan sinyalnya karena Cuaca hujan lebat/mendung tebal, gunakan script ini)
+
+Mohon maaf untuk ketidaknyamananya, BigTv sudah menggunakan teknologi terkini untuk meminimalkan gangguan yang terjadi karena hujan lebat/mendung tebal . Gangguan sinyal ini bisa terjadi jika di lokasi tempat tinggal Bapak/Ibu sedang hujan lebat/mendung tebal atau di pusat terjadi Hujan lebat/mendung tebal, jika saat ini Bapak/Ibu XXX (sebutkan nama pelanggan) mengalami sedikit gangguan kwalitas siaran , kami sekali lagi mohon maaf.</p><p>
+
+Gangguan siaran ini akan kembali normal , jika kondisi hujan sudah reda.</p>
+<p>
+Ada lagi yang bisa kami bantu?</p>
+<p>
+Customer :  Tidak ada.</p><p>
+
+Agent       :  Baik terimakasih sudah menghubungi BigTv  Selamat pagi/siang/sore/malam.</p>
+    </div>
+<div data-role="popup" id="myPopup2" class="ui-content">
+<p>How is the weather conditions 			please press the menu button and then press the right arrow to find the menu diagnosis and then press the ok button on the signal meter 	
+please inform to what percentage of quality 		
+please advise on above of strengths there is a section labeled c/n  colon </p><p>
+please check the existing wiring behind the set up box 		
+please release the cord by twisting the ring then plug it in again 		
+how is the result 		
+I will make a report to the technician visits, please wait for a few second 	for improvement of signal quality 		
+please written  for the number of reporting 		
+Our technicians will call in advance to confirm arrival to your home 		
+make sure the phone number to call is always active </p><p> i m apologize for any uncomfortable 		
+if it rains signal will drop or even disappear 		
+and causes notification error eo on tv screen but it will not be long 		
+when the rains over , the screen display will return to normal and you can enjoy watching them back 		
+bigtv still constrained in weather </p>
+  </div>
+<div data-role="popup" id="myPopup3" class="ui-content"><p>English : </p><p>
+Dear Customers </p><p>
+We apologies for the sudden discontinuation of STAR Cricket. The channel is no longer available in this region. As such we are unable to offer the channel 
+cricket fans on BIGTV. A refund of your subscription for the month of January will be given in your next bill cycle. 
+Fox International Channels, the distributor of the channel has advised that cricket fans can continue to subscribe to the channel via its website at 
+www.starsports.com. Should you have further queries, please call us or log on to our website. We look forward to your continued support.
+Disclaimer: BIGTV has no direct control over the service on www.starsports.com. Customers who choose to subscribe to the cricket events online via this 
+website will have to deal directly with star sports. Info : 021 500244 / bigtvhd.com </p><p>
+Bhs Indonesia :</p><p>
+Pelanggan Yth</p><p>
+Kami mohon maaf atas tidak di lanjutkan nya lagi tayangan Star Cricket. Tayangan ini tidak tersedia lagi di wilayah ini. Dengan demikian kami tidak dapat 
+menawarkan tayangan ini kepada penggemar Cricket di BIGTV. Untuk pengembalian biaya langganan di bulan Januari akan diberikan di tagihan 
+berikutnya
+Fox International Channels adalah distributor dari tayangan ini  menyarankan untuk penggemar cricket dapat melanjutkan berlangganan tayangan ini melalui 
+website www.starsports.com 
+Disclaimer : BIGTV tidak mempunyai kontrol langsung atas layanan www.starsports.com. Pelanggan yang berlangganan tayangan cricket online via webiste 
+nanti akan berhubungan langsung dengan pihak Star Sports
+Info 021 500244 / bigtvhd.com</p>
 </div>
+<div data-role="popup" id="myPopup4" class="ui-content"><p>Q : Saya terima email tentang FM GO , Jika saya ingin mendapatkan user dan passwordnya bagaimana?</p><p>
+A : Bapak/Ibu XXX Boleh diinfokan alamat emailnya, kami akan segera kirimkan User dan password ke alamat email Bapak/Ibu.</p><p>
+Q: Saya sudah coba login ke FM GO, kenapa saya tidak bisa menikmati tayangan channelnya ya? </p><p>
+A : Mohon maaf atas ketidaknyamannya saat ini sedang ada maintenance di internal system kami dalam hal meningkatkan kualitas dari  	
+FM GO  sendiri</p><p>
+Q : Kapan maintenance system nya akan selesai ?</p><p>A : Team Teknologi kami sedang berusaha semaximal dan secepat mungkin agar supaya cepat selesai, untuk estimasi kami mendapatkan info 
+akan selesai di hari kamis besok Bapak/Ibu</p>
+
+</div>
+<div data-role="popup" id="myPopup5" class="ui-content"><p>Agent        :  Boleh disebutkan tulisan yang ada di layar tv?</p><p>
+Customer :   Tulisannya “ ..Transmisi saat ini terganggu dikarenakan adanya Gangguan Matahari.</p><p>
+Agent        :  Baik Bapak/Ibu  XXX (sebutkan nama pelanggan),mohon maaf atas ketidaknyamanannya. Kami informasikan saat ini sedang terjadi gangguan yang dinamakan dengan “Gangguan Matahari atau Sun Outage”. Gangguan ini berupa gangguan sinyal yang terjadi untuk beberapa channel saja dan hanya terjadi untuk beberapa menit saja.</p><p>
+Customer :   Apa itu sun outage dan kenapa bisa jadi gangguan sinyal?</p><p>
+ Agent        :  Baik,saya coba jelaskan Pak/Bu. Gangguan Matahari atau Sun outage terjadi karena posisi Bumi,Satelit dan Matahari berada dalam satu garis lurus, atau biasa disebut Gerhana Satelit, yang mengakibatkan sinyal dari satelit channel tersebut mengalami  gangguan. Hal ini terjadi untuk semua provider TV berlangganan, baik yang menggunakan satelit maupun kabel, karena gangguannya terjadi pada satelit channel tersebut. Ini adalah fenomena alam dan rutin terjadi 2 kali dalam setahun, di Indonesia sekitar bulan Maret dan September. Gangguan ini tidak berlangsung lama,hanya beberapa menit saja dan otomatis akan bisa dinikmati kembali.
+
+Apakah penjelasan kami cukup jelas Bapak/Ibu XXX (sebutkan nama pelanggan)?
+
+Ada hal lain yang bisa kami bantu?</p><p>
+Customer : Penjelasannya sudah cukup jelas, tidak terimakasih.</p><p>
+Agent    : Baik terima kasih sudah menghubungi BigTv  Selamat pagi/siang/sore/malam.</p>
+
+</div>
+<div data-role="popup" id="myPopup6" class="ui-content"><p>Q: Mengapa Bein 1, Bein 2 tidak dapat dinikmati?</p><p>
+A: Mohon maaf Bapak/Ibu, saluran ini sementara tidak dapat disiarkan sehubungan dengan prihal pemprograman kontrak.</p><p>
+We are apology for the inconvenience sir/mam... . for these channel unable to broadcast due to we are in programming contract right now.</p><p>
+Q: Kapan akan selesai masalah kontraktual tersebut?</p><p>
+A: Mohon maaf untuk saat ini kami belum memiliki estimasi penyelesaian proses kontraktual ini, namun kami upayakan secepatnya dapat segera terselesaikan.</p><p>
+"We are sorry for the moment we do not have an estimated completion of this contractual process, but we are working as quickly as possible can be immediately resolved.</p> <p>This channel is temporarily unable to broadcast programming in connection with the subject of the contract.</p><p>
+Kapan akan selesai masalah kontraktual tersebut?</p><p>for now, we do not have information yet for the estimation for these contractual process, but we hope that as soon as possible, it will be solved.</p><p><b>Additional Script</b></p><p>
+Jika customer marah-marah,sampaikan berbagai macam keluhan:</p><p>
+“ Keluhan Bapak/Ibu sudah kami catat dan lebih lanjut kami akan sampaikan kepada pihak management. Mohon maaf atas ketidaknyamanannya”.</p><p>
+"All complaints Mr / Mrs already have on file and further we will convey to the management. We are apology for the inconvenience ".</p><p>	
+</div>
+
+<div data-role="popup" id="myPopup7" class="ui-content"><p>"Mohon maaf atas ketidaknyamanan Bapak/Ibu..... memang Saat ini BIG TV sedang melakukan peningkatan kualitas jaringan. kami upayakan secepatnya untuk siaran kami sudah kembali normal sehingga Bpk / Ibu...bisa menyaksikan kembali siaran  kami ".</p><p><b>We are apology for the inconveniences caused sir/mam...indeed Currently BIG TV are also improving the quality of the network. we try as soon as possible for our broadcast is back to normal so that Mr / Ms ... could watch our broadcasts back ".</b></p>
+
+</diV>
+<div data-role="popup" id="myPopup8" class="ui-content"><table style="width:100%">
+<tr><th>UCAPAN PELANGGAN</th>
+          <th>REKOMENDASI JAWABAN AGENT</th>
+          <th>JAWABAN YG SEBAIKNYA DIHINDARI</th></tr>
+<tr>   
+<th>Saya mau bicara sama Pimpinan kamu!! (TL/Spv/Manager)</th>
+<th>Mhn maaf Bpk/Ibu ….., layanan langsung dengan pelanggan sdh menjadi tanggung jawab kami sbg agent call center. Jadi , masalah apapun yang Bpk/Ibu …... hadapi, kami akan berusaha menyelesaikannya sesuai dengan standar dan ketentuan yang berlaku.</th>
+<th>Mhn maaf Pak/Ibu, pimpinan kami sedang tidak ada/tdk bertugas</th></tr>
+<tr>
+<th>Percuma saya ngomong sama agent, tidak ada solusi/tdk bisa mengambil keputusan/tdk selesai-2</th>
+<th>Mhn maaf Bpk/Ibu......., kami sangat menyadari bhw masalah Bpk/Ibu ..... sangatlah penting,tetapi apa yg kami sampaikan sdh mengacu pada ketentuan yg berlaku.Kami diwajibkan melayani pelanggan ssi dengan standar yg sdh ditetapkan, apabila tidak maka sdh ada konsekuensi.</th>
+<th></th></tr>
+<tr>
+<th>Saya mau masukkan koran ya!!  (jika kondisi pelanggan memang benar dan ada kesalahan di BIG TV (gangguan/system error, human error,keterlambatan eksekusi/refund,dll)</th>
+<th>Mhn maaf Bpk/Ibu ….., atas ketidaknyamanannya. Kami sangat memahami permasalahan yang Bpk/Ibu ……... hadapi.Mhn kiranya bpk/ibu dapat bersabar</th>
+<td>Silakan Pak/Bu..itu memang sdh menjadi hak bpk/ibu sebagai pelanggan…</th></tr>
+<tr>
+<th>Saya mau masukkan koran ya!!  (jika agent sdh menyampaikan solusi ssi ketentuan , tapi pelanggan tdk mau menerima)</th>
+<th>Mhn maaf Bpk/Ibu ........, atas ketidaknyamanannya. Kami sangat memahami permasalahan yang Bpk/Ibu ........ hadapi. Solusi/penjelasan yang sdh kami sampaikan sudah sesuai dengan ketentuan yang berlaku.Apabila Bpk/Ibu ........tidak berkenan, dengan segala kerendahan hati kami minta maaf.</th>
+<th>Silakan Pak/Bu..itu memang sdh menjadi hak bpk/ibu sebagai pelanggan…</th></tr>
+<tr>
+<th>Saya tidak mau menutup telepon sebelum ada solusi..saya tetap akan menunggu meskipun lama..pokoknya hrs ada jawaban sekarang juga!!</th>
+<th>Mhn maaf Bpk/Ibu ..... atas ketidaknyamanannya.Untuk menyelesaikan masalah Bpk/Ibu...... kami membutuhkan waktu u/ koordinasi dengan pihak terkait.Apabila Bpk/Ibu ..... tidak berkenan u/ mengakhiri pembicaraan saat ini, justru akan menghambat proses pemecahan masalah.Kami mohon pengertiannya.</th><th>
+Kalo Bpk/Ibu tidak mau menutup telepon ini, kasihan pelanggan lain tdk bisa masuk.</th></tr></table>
+
+</div>
+<div data-role="popup" id="myPopup9" class="ui-content"><p>“Mohon maaf bpk / ibu..., saat ini kami belum bisa melakukan pengecekan data atas nama bpk / ibu…yg dikarenakan saat ini kami sedang melakukan peningkatan kualitas jaringan yang akan berlangsung hingga 24 Jam kedepan. Kami usahakan agar secepatnya dapat normal kembali.
+Terima kasih untuk kesabarannya dan kami mohon maaf untuk ketidaknyamanannya.</p>	<p>
+<b>ENGLISH</b></p><p>
+"We are apology for the inconveniences caused sir/mam...
+this time we have unable to check the data on behalf of the sir / mam ...	that is due to currently BIG TV are also improving network quality that will last up to 24 hours ahead. We see to it that it can eventually be normal again".	</p>			
+</div>
+<div data-role="popup" id="myPopup10" class="ui-content"><p>"Mohon maaf atas ketidaknyamanan Bapak/Ibu.....Saat ini kami sedang melakukan koordinasi dengan pihak terkait berkenaan dengan jadwal pemasangan atas nama Bapak/Ibu, untuk itu kami meminta kesediaan Bapak/Ibu untuk menunggu, kami upayakan jadwal pemasangan dapat dilakukan secepatnya sesuai permintaan Bpk/Ibu".</p><p><b>"We are apology for the inconveniences caused sir/mam... Currently we are coordinating with the relevant sections regarding the installation schedule in the name of the sir / Mam,		
+for it is our request that Mr. / Ms willing to wait, we are trying to schedule the installation can be done immediately upon the request of Mr / Ms ".</b></p>					
+</div>
+</div> 
+  </div>
+
+  <div data-role="footer">
+    <h1>cux</h1>
+  </div>
+</div> 
 
 </body>
 </html>
